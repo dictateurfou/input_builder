@@ -2,18 +2,20 @@
 For make form and return result in you Clientevent (fivem) , modify css for change style
 
 
-usage
+usage in client script
 
-    ex
-    exports['anti_essential_core']:getPlayerInfo(source)
-    exports['anti_essential_core']:getPlayerAllMoney(source)
-    exports['anti_essential_core']:removeMoney(source,somme)
-    exports['anti_essential_core']:AddMoney(source,somme)
-    exports['anti_essential_core']:addBank(source,somme)
-    exports['anti_essential_core']:removeBank(source,somme)
-    exports['anti_essential_core']:removeDirtyMoney(source,somme)
-    exports['anti_essential_core']:addDirtyMoney(source,somme)
-    exports['anti_essential_core']:setDirtyMoney(source,somme)
-    exports['anti_essential_core']:removeMoneyForBank(source,somme)
-    exports['anti_essential_core']:removeBankForMoney(source,somme)
-    exports['anti_essential_core']:FetchAllForResult(table,where,argwhere)
+for Call
+    exports.input_builder:multipleInput("TITLE","youClientScript:Event",{{["name"] = "time",["type"] = "number"},{["name"] = "reason",["type"] = "textarea"},{["name"] = "money", ["type"] = "number"}},arg)
+    
+For recept
+
+AddEventHandler('youClientScript:Event',function(arg,rslt)
+exemple for rslt
+rslt.time
+rslt.reason
+rslt.money
+
+arg = You argument when Called input builder
+	
+end)
+
