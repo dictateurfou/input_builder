@@ -4,7 +4,7 @@ For make form and return result in you Clientevent (fivem) , modify css for chan
 
 usage
 
-    exports['anti_essential_core']:getIdentifier(source)
+    ex
     exports['anti_essential_core']:getPlayerInfo(source)
     exports['anti_essential_core']:getPlayerAllMoney(source)
     exports['anti_essential_core']:removeMoney(source,somme)
