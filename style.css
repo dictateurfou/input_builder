@@ -1,0 +1,38 @@
+h1{
+    font-family: 'Spirax', cursive;
+    text-align:center;
+    font-size:1.7em;
+    color:#fff;
+    margin:0;
+}
+
+form {
+    margin: 0;
+}
+
+input[type=number], input[type=password] {
+    width: 100%;
+    padding: 7px;
+}
+
+button {
+    display: block;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #286090;
+    border: 0;
+    color: #fff;
+    width: 100%;
+    border-radius:10px;
+}
+
+#login-form {
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
